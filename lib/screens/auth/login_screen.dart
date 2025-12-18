@@ -19,14 +19,14 @@ class LoginScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset("assets/images/logo.png", width: 90),
-            SizedBox(height: 20),
             Text(
-              "Login",
+              "Softbuzz",
               style: TextStyle(
-                color: AppColors.white,
-                fontSize: 26,
-                fontWeight: FontWeight.bold,
+                fontFamily: 'Poppins',
+                fontSize: 36,
+                fontWeight: FontWeight.w600,
+                color: const Color(0xFFFFFFFF), // pure white with full opacity
+                letterSpacing: 1.2,
               ),
             ),
             SizedBox(height: 30),

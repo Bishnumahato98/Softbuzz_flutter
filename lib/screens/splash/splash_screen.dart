@@ -13,7 +13,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(Duration(seconds: 4), () {
+    Future.delayed(const Duration(seconds: 4), () {
       Navigator.pushReplacementNamed(context, AppRoutes.login);
     });
   }
@@ -26,16 +26,19 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Image.asset("assets/images/logo.png", width: 170),
-            SizedBox(height: 20),
             Text(
-              "SoftBuzz",
+              "Softbuzz",
               style: TextStyle(
-                color: AppColors.white,
-                fontSize: 26,
-                fontWeight: FontWeight.bold,
+                fontFamily: 'Poppins',
+                fontSize: 36,
+                fontWeight: FontWeight.w600,
+                color: const Color(0xFFFFFFFF), // pure white with full opacity
+                letterSpacing: 1.2,
               ),
             ),
+            // Optional: Add a subtle tagline later if needed
+            // SizedBox(height: 8),
+            // Text("Simplify your workflow", style: ...),
           ],
         ),
       ),
