@@ -76,7 +76,7 @@
 //                     "Sign Up",
 //                     style: TextStyle(
 //                       color: Colors.lightBlueAccent,
-//                       fontWeight: FontWeight.bold,
+//
 //                     ),
 //                   ),
 //                 ),
