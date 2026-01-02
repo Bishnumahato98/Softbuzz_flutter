@@ -97,12 +97,10 @@ class _DashboardScreenState extends State<HomeScreen> {
 
             const SizedBox(height: 16),
 
-            // 🏆 IPL AUCTION TRACKER
             auctionTracker(),
 
             const SizedBox(height: 20),
 
-            // 🎥 FEATURED VIDEOS
             sectionTitle("Featured Videos"),
             horizontalCard(
               "IND vs AUS Pre-Match Show",
