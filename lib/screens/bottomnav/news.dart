@@ -8,3 +8,4 @@ class NewsScreen extends StatelessWidget {
     return SizedBox.expand(child: Center(child: Text("News")));
   }
 }
+// news
