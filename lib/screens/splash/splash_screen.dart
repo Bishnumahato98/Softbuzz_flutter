@@ -32,12 +32,10 @@ class _SplashScreenState extends State<SplashScreen> {
                 fontFamily: 'Poppins',
                 fontSize: 36,
                 fontWeight: FontWeight.w600,
-                color: const Color(0xFFFFFFFF), // pure white with full opacity
+                color: const Color(0xFFFFFFFF),
                 letterSpacing: 1.2,
               ),
             ),
-
-            // Optional: Add a subtle tagline later if needed
           ],
         ),
       ),
