@@ -20,7 +20,7 @@
 //           mainAxisAlignment: MainAxisAlignment.center,
 //           children: [
 //             Text(
-//               "Softbuzz",
+//               "Crickbuzz",
 //               style: TextStyle(
 //                 fontFamily: 'Poppins',
 //                 fontSize: 36,
@@ -76,7 +76,7 @@
 //                     "Sign Up",
 //                     style: TextStyle(
 //                       color: Colors.lightBlueAccent,
-//
+//                       fontWeight: FontWeight.bold,
 //                     ),
 //                   ),
 //                 ),
