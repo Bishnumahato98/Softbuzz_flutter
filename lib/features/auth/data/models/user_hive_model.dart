@@ -14,3 +14,4 @@ class UserHiveModel {
     return UserEntity(email: email, password: password);
   }
 }
+// model
