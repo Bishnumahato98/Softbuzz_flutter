@@ -49,7 +49,7 @@ class _DashboardScreenState extends State<HomeScreen> {
         backgroundColor: const Color(0xff00B894),
         elevation: 0,
         titleSpacing: 16,
-        // title: Image.asset("assets/images/logo.png", height: 36),
+
         title: Text(
           "Softbuzz",
           style: TextStyle(
@@ -72,7 +72,6 @@ class _DashboardScreenState extends State<HomeScreen> {
           children: [
             const SizedBox(height: 12),
 
-            // 🏏 MATCH SLIDER
             SizedBox(
               height: 190,
               child: PageView.builder(
@@ -92,7 +91,6 @@ class _DashboardScreenState extends State<HomeScreen> {
 
             const SizedBox(height: 14),
 
-            // ⚡ TOP FEATURES
             topFeatures(),
 
             const SizedBox(height: 16),
