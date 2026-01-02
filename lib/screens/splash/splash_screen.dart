@@ -36,9 +36,8 @@ class _SplashScreenState extends State<SplashScreen> {
                 letterSpacing: 1.2,
               ),
             ),
+
             // Optional: Add a subtle tagline later if needed
-            // SizedBox(height: 8),
-            // Text("Simplify your workflow", style: ...),
           ],
         ),
       ),
