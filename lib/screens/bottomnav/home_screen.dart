@@ -115,7 +115,6 @@ class _DashboardScreenState extends State<HomeScreen> {
 
             const SizedBox(height: 16),
 
-            // 🔥 TRENDING
             sectionTitle("Trending"),
             horizontalCard(
               "Virat Kohli back in form?",
