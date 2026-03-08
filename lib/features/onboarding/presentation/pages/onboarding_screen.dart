@@ -56,8 +56,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     children: [
                       Image.asset(
                         'assets/images/logo.png', // your image path
-                        width: 100, // set width
-                        height: 100, // set height
+                        width: 100,
+                        height: 100,
                       ),
                       const SizedBox(height: 30),
                       Text(
