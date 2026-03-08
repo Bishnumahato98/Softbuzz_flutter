@@ -50,3 +50,4 @@ class AuthHiveModelAdapter extends TypeAdapter<AuthHiveModel> {
           runtimeType == other.runtimeType &&
           typeId == other.typeId;
 }
+// hhh
