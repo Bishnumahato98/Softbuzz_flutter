@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 
-/// Simple navigation utility class
 class AppRoutes {
   AppRoutes._();
 
-  /// Push a new route onto the stack
   static void push(BuildContext context, Widget page) {
     Navigator.push(context, MaterialPageRoute(builder: (_) => page));
   }
