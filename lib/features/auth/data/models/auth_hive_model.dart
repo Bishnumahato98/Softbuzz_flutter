@@ -4,7 +4,6 @@ import 'package:softbuzz_app/features/auth/domain/entities/auth_entity.dart';
 
 import 'package:uuid/uuid.dart';
 
-// INFO: dart run build_runner build -d
 part 'auth_hive_model.g.dart';
 
 @HiveType(typeId: HiveTableConstant.authTypeId)
