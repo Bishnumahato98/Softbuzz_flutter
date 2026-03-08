@@ -1,22 +1,10 @@
 // import 'package:flutter/material.dart';
 // import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-// // Theme mode provider
-// final themeModeProvider = NotifierProvider<ThemeModeNotifier, ThemeMode>(
-//   ThemeModeNotifier.new,
-// );
-
-// class ThemeModeNotifier extends Notifier<ThemeMode> {
 //   static const String _themeKey = 'theme_mode';
 
 //   @override
-//   ThemeMode build() {
-//     // Load saved theme from SharedPreferences synchronously
-//     final themeValue = ref.getString(_themeKey);
-//     if (themeValue != null) {
-//       return _themeModeFromString(themeValue);
-//     }
-//     return ThemeMode.system;
+
 //   }
 
 //   Future<void> setThemeMode(ThemeMode mode) async {
