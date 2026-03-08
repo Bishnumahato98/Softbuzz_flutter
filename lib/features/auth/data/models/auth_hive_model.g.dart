@@ -1,5 +1,3 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
-
 part of 'auth_hive_model.dart';
 
 class AuthHiveModelAdapter extends TypeAdapter<AuthHiveModel> {
