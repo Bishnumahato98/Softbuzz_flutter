@@ -101,7 +101,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                // Back button
                 Visibility(
                   visible: currentIndex > 0, // hide on first page
                   child: ElevatedButton(
