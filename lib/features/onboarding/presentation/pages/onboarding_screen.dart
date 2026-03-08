@@ -102,7 +102,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Visibility(
-                  visible: currentIndex > 0, // hide on first page
+                  visible: currentIndex > 0,
                   child: ElevatedButton(
                     onPressed: () {
                       _controller.previousPage(
