@@ -7,7 +7,6 @@ class AppRoutes {
     Navigator.push(context, MaterialPageRoute(builder: (_) => page));
   }
 
-  /// Replace current route with a new one
   static void pushReplacement(BuildContext context, Widget page) {
     Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => page));
   }
