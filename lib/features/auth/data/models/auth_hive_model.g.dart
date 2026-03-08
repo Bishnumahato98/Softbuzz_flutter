@@ -2,10 +2,6 @@
 
 part of 'auth_hive_model.dart';
 
-// **************************************************************************
-// TypeAdapterGenerator
-// **************************************************************************
-
 class AuthHiveModelAdapter extends TypeAdapter<AuthHiveModel> {
   @override
   final int typeId = 1;
