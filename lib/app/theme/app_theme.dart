@@ -13,7 +13,6 @@ class AppTheme {
       ),
       scaffoldBackgroundColor: AppColors.background,
 
-      // AppBar Theme
       appBarTheme: const AppBarTheme(
         elevation: 0,
         centerTitle: true,
