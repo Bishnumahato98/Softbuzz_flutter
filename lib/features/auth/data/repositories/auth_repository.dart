@@ -7,7 +7,6 @@ import 'package:softbuzz_app/features/auth/data/models/auth_hive_model.dart';
 import 'package:softbuzz_app/features/auth/domain/entities/auth_entity.dart';
 import 'package:softbuzz_app/features/auth/domain/repositories/auth_repository.dart';
 
-// Create provider
 final authRepositoryProvider = Provider<IAuthRepository>((ref) {
   final authDatasource = ref.read(authLocalDatasourceProvider);
   return AuthRepository(authDatasource: authDatasource);
