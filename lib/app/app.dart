@@ -9,10 +9,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Softbuzz',
+      title: 'crickbuzz',
       theme: AppTheme.lightTheme,
       home: const SplashScreen(),
     );
   }
 }
-// from app
