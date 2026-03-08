@@ -21,7 +21,6 @@ class AuthRepository implements IAuthRepository {
   @override
   Future<Either<Failure, bool>> register(AuthEntity user) async {
     try {
-      // Check if email already exists
       final existingUser = await _authDataSource.getUserByEmail(user.email);
       if (existingUser != null) {
         return const Left(
