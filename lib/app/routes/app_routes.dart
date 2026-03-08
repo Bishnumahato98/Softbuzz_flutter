@@ -20,12 +20,10 @@ class AppRoutes {
     );
   }
 
-  /// Pop the current route
   static void pop(BuildContext context) {
     Navigator.pop(context);
   }
 
-  /// Pop to first route (root)
   static void popToFirst(BuildContext context) {
     Navigator.popUntil(context, (route) => route.isFirst);
   }
