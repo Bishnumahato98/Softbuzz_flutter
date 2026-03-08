@@ -32,7 +32,7 @@ class AppTheme {
         unselectedItemColor: Colors.white70,
         type: BottomNavigationBarType.fixed,
       ),
-      // Input Decoration Theme
+
       inputDecorationTheme: InputDecorationTheme(
         filled: true,
         fillColor: Colors.white,
