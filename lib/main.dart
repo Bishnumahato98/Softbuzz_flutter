@@ -22,7 +22,6 @@ void main() async {
 
   // // Initialize SharedPreferences : because this is async operation
   // // but riverpod providers are sync so we need to initialize it here
-  // final sharedPreferences = await SharedPreferences.getInstance();
 
   runApp(const ProviderScope(child: MyApp()));
 }
