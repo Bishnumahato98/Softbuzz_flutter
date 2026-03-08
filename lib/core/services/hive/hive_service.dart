@@ -32,8 +32,6 @@ class HiveService {
     await Hive.close();
   }
 
-  // Hack: =================== Auth CRUD Operations ===========================
-
   Box<AuthHiveModel> get _authBox =>
       Hive.box<AuthHiveModel>(HiveTableConstant.authTable);
 
