@@ -20,8 +20,6 @@ void main() async {
   // initialize Hive or other services if needed
   await HiveService().init();
 
-  // // Initialize SharedPreferences : because this is async operation
-  // // but riverpod providers are sync so we need to initialize it here
-
+  // j
   runApp(const ProviderScope(child: MyApp()));
 }
