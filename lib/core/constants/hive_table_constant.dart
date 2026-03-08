@@ -1,7 +1,6 @@
 class HiveTableConstant {
   HiveTableConstant._();
 
-  // Database name
   static const String dbName = "smartnews_db";
 
   // NOTE: Tables -> Box : Index
