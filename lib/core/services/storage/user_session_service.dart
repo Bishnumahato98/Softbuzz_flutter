@@ -14,9 +14,6 @@
 
 // class UserSessionService {
 //   final SharedPreferences _prefs;
-
-//   // Keys for storing user data
-//   static const String _keyIsLoggedIn = 'is_logged_in';
 //   static const String _keyUserId = 'user_id';
 //   static const String _keyUserEmail = 'user_email';
 //   static const String _keyUserFullName = 'user_full_name';
